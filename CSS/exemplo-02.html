@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> CSS Incorporado </title>
+	<style type="text/css">
+		/* Comentário em CSS  */ 
+		/* body{margin:0; box-sizing:border-box; } */
+         *{margin:0; box-sizing:border-box;}
+
+		header{
+			background-color: #95afc0;
+			height: 15vh;
+			border-bottom:solid #130f40 5px; }
+		section{
+			background:#182C61;
+			height: 75vh;
+			border-bottom:solid #130f40 5px;
+		}
+		footer{
+			background:#95afc0;
+			height: 10vh;
+		}
+		div{
+			background:#D6A2E8;
+		}
+		#main{
+			display:flex;
+		}
+		#d1{
+			background: #EAB543;
+			width:33.33vw;
+			height: 25vh;
+		}
+		#d2{
+			background: #6D214F;
+			width:33.33vw;
+			height: 25vh;
+		}
+		#d3{
+			background: #16a085;
+			width:33.33vw;
+			height: 25vh;
+		}
+		li{
+			background: #192a56;
+			color: white;
+			font-size: 30px;
+		}
+        .cti{
+        	background: #182C61;
+        }
+        #enf{
+        	background: #2ed573;
+        }
+        #adm{
+        	background: #0652DD;
+        }
+		.circulo{
+			width:200px;
+			height:200px;
+			background-color: yellow;
+			border-radius: 100px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Comentário em HTML --> 
+    <header> Aprendendo CSS Incorporado </header>
+    <section>
+    	<div id="main">
+	    	<div id="d1"> Divisão 01 </div>
+	    	<div id="d2"> Divisão 02 </div> 
+	    	<div id="d3"> Divisão 03 </div>
+    	</div>
+    	<div>
+    		<ul>
+    			<li class="cti"> Informática </li>
+    			<li class="cti"> Desenvolvimento de sistemas </li>
+    			<li id="enf"> Enfermagem </li>
+    			<li id="adm"> Administração </li>
+    		</ul>
+			<div class="circulo"></div>
+    	</div>
+    </section>
+    <footer> EEEP Amélia - 2024 &copy; </footer>
+</body>
+</html>
